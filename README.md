@@ -43,6 +43,6 @@ Deliverable 4: Create the Movie Database Use your knowledge of Python, Pandas, t
  
 [Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
  
-[QuickDBD](https://app.quickdatabasediagrams.com/#/)
+[Postgresql Database Connection](https://www.postgresql.org/docs/current/libpq-connect.html)
  
 [Matplotlib gallery](https://matplotlib.org/stable/gallery/index.html)
