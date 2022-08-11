@@ -1,3 +1,9 @@
+# adding config.py
+config.py
+
+# adding large csv files
+ratings.csv
+
 # Byte-compiled / optimized / DLL files
 config.py
 __pycache__/
