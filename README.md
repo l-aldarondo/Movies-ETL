@@ -22,13 +22,61 @@ Software:
  
 ## Overview of Analysis
  
-Deliverable 1: Using Python, Pandas, the ETL process, and code refactoring, we wrote a function that reads in the three data files and creates three separate DataFrames, as shown in Fig 1.1
+Deliverable 1: Using Python, Pandas, the ETL process, and code refactoring, we wrote a function that read in the three data files and creates three separate DataFrames, as shown in Fig 1.1 - 1.3
 
-Deliverable 2: Using your knowledge of Python, Pandas, the ETL process, and code refactoring - we extracted and transformed the Wikipedia data and then merged it with the Kaggle metadata. While extracting the IMDb IDs using a regular expression string and dropping duplicates, use a try-except block to catch errors. (Fig 1.2)
+<br/>
 
-Deliverable 3: Using your knowledge of Python, Pandas, the ETL process, and code refactoring - extract and transform the Kaggle metadata and MovieLens rating data, then convert the transformed data into separate DataFrames. Then, you’ll merge the Kaggle metadata DataFrame with the Wikipedia movies DataFrame to create the movies_df DataFrame. Finally, you’ll merge the MovieLens rating data DataFrame with the movies_df DataFrame to create the movies_with_ratings_df. (Fig 1.3)
+![wiki_movies_df](./images/wiki_movie_df.png)
 
-Deliverable 4: Create the Movie Database Use your knowledge of Python, Pandas, the ETL process, code refactoring, and PostgreSQL to add the movies_df DataFrame and MovieLens rating CSV data to a SQL database. (Fig 1.4)
+<sub>Figure 1.1 wiki_movies_df
+
+<br/>
+
+![kaggle_metadata](./images/kaggle_metadata_df.png)
+
+<sub>Figure 1.2 kaggle_metadata_df
+
+<br/>
+
+![ratings_df](./images/ratings_df.png)
+
+<sub>Figure 1.3 ratings_df
+
+<br/>
+
+Deliverable 2: Using Python, Pandas, the ETL process, and code refactoring - we extracted and transformed the Wikipedia data and then merged it with the Kaggle metadata. While extracting the IMDb IDs using a regular expression string and dropping duplicates, we used a try-except block to catch errors. (Fig 1.4 - 1.5)
+
+<br/>
+
+![wiki_movies_df.head()](./images/wiki_movies_df.head().png)
+
+<sub>Figure 1.4 wiki_movies_df.head()
+
+<br/>
+
+![wiki_movies_df.columns.to_list()](./images/wiki_movies_df.columns.to_list().png)
+
+<sub>Figure 1.5 wiki_movies_df.columns.to_list()
+
+<br/>
+
+Deliverable 3: Using your knowledge of Python, Pandas, the ETL process, and code refactoring - extracted and transformed the Kaggle metadata and MovieLens rating data, then converted the transformed data into separate DataFrames. Then, we mergeed the Kaggle metadata DataFrame with the Wikipedia movies DataFrame to create the movies_df DataFrame. Finally, we merged the MovieLens rating data DataFrame with the movies_df DataFrame to create the movies_with_ratings_df. (Fig 1.6 - 1.7)
+
+<br/>
+
+![movies_with_ratings_df.head()](./images/movies_with_ratings_df.png)
+
+<sub>Figure 1.6 movies_with_ratings_df.head()
+
+<br/>
+
+![movies_df.head()](./images/movies_df.head().png)
+
+<sub>Figure 1.7 movies_df.head()
+
+<br/>
+
+Deliverable 4: Using Python, Pandas, the ETL process, code refactoring, and PostgreSQL we added the movies_df DataFrame and MovieLens rating CSV data to a SQL database. (Fig 1.8 - 1.9)
  
  
 <br/>
@@ -45,4 +93,4 @@ Deliverable 4: Create the Movie Database Use your knowledge of Python, Pandas, t
  
 [Postgresql Database Connection](https://www.postgresql.org/docs/current/libpq-connect.html)
  
-[Matplotlib gallery](https://matplotlib.org/stable/gallery/index.html)
+[SQLAlchemy](https://www.sqlalchemy.org/)
