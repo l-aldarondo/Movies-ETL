@@ -80,8 +80,15 @@ Deliverable 4: Using Python, Pandas, the ETL process, code refactoring, and Post
 
 <br/>
 
-![movies_table]()
- 
+![movies_table](./Resources/movies_query.png)
+
+#### <sub>Figure 1.8 movies_query
+
+<br/>
+
+![raitings](./Resources/ratings_query.png) 
+
+#### <sub>Figure 1.8 ratings_query
  
 <br/>
  
