@@ -2,7 +2,7 @@
 Using the Extract, Transform, Load (ETL) process to create data pipelines.
  
 ## Background
-The client is interested in developing an algorithm to predict which low budget movies being relesae will become popular so they can buy the movie rights at a lower price.
+The client is interested in developing an algorithm to predict which low budget movies being released will become popular so they can buy the movie rights at a lower price.
  
 ### Purpose
  
@@ -22,7 +22,7 @@ Software:
  
 ## Overview of Analysis
  
-Deliverable 1: Using Python, Pandas, the ETL process, and code refactoring, we wrote a function that read in the three data files and creates three separate DataFrames, as shown in Fig 1.1 - 1.3
+Deliverable 1: Using Python, Pandas, the ETL process, and code refactoring, we wrote a function that read in the three data files and created three separate DataFrames, as shown in Fig 1.1 - 1.3
 
 <br/>
 
@@ -60,7 +60,7 @@ Deliverable 2: Using Python, Pandas, the ETL process, and code refactoring - we 
 
 <br/>
 
-Deliverable 3: Using your knowledge of Python, Pandas, the ETL process, and code refactoring - extracted and transformed the Kaggle metadata and MovieLens rating data, then converted the transformed data into separate DataFrames. Then, we mergeed the Kaggle metadata DataFrame with the Wikipedia movies DataFrame to create the movies_df DataFrame. Finally, we merged the MovieLens rating data DataFrame with the movies_df DataFrame to create the movies_with_ratings_df. (Fig 1.6 - 1.7)
+Deliverable 3: Using Python, Pandas, the ETL process, and code refactoring - we extracted and transformed the Kaggle metadata and MovieLens rating data, then converted the transformed data into separate DataFrames. Then, we merged the Kaggle metadata DataFrame with the Wikipedia movies DataFrame to create the movies_df DataFrame. Finally, we merged the MovieLens rating data DataFrame with the movies_df DataFrame to create the movies_with_ratings_df. (Fig 1.6 - 1.7)
 
 <br/>
 
