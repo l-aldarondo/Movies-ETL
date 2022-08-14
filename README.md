@@ -76,7 +76,11 @@ Deliverable 3: Using your knowledge of Python, Pandas, the ETL process, and code
 
 <br/>
 
-Deliverable 4: Using Python, Pandas, the ETL process, code refactoring, and PostgreSQL we added the movies_df DataFrame and MovieLens rating CSV data to a SQL database. (Fig 1.8 - 1.9)
+Deliverable 4: Using Python, Pandas, the ETL process, code refactoring, and PostgreSQL we added the movies_df DataFrame and MovieLens rating CSV data to a SQL database tables movies and raitings. (Fig 1.8 - 1.9)
+
+<br/>
+
+![movies_table]()
  
  
 <br/>
